@@ -5,46 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Create">
-    <TextView
-        android:id="@+id/Registration"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Zarejestruj się"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182" />
 
-    <EditText
-        android:id="@+id/Create_email"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:hint="E-mail"
-        app:layout_constraintBottom_toTopOf="@+id/Create"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/Create_password"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:hint="Hasło"
-        app:layout_constraintBottom_toTopOf="@+id/Create_email"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/Create"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:text="Create"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.522" />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_login"
+        android:id="@+id/fragment"
+        app:layout_costraintBottom_toBottomOf="parent"
+        app:layout_constrainedEnd_toEndOf="parent"
+        app:layout_constrainedStart_toStartOf="parent"
+        app:layout_constrainedTop_toTopOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
