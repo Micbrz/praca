@@ -11,10 +11,7 @@
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_login"
         android:id="@+id/fragment"
-        app:layout_costraintBottom_toBottomOf="parent"
-        app:layout_constrainedEnd_toEndOf="parent"
-        app:layout_constrainedStart_toStartOf="parent"
-        app:layout_constrainedTop_toTopOf="parent"
+        
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
